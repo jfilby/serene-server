@@ -24,8 +24,7 @@
     ".", // required for baseUrl to work for absolute import paths
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx",
-    "../client/service/data/outline.ts" ],
+    "**/*.tsx" ],
   "exclude": [
     "./node_modules"
   ]
