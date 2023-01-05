@@ -1,2 +1,3 @@
-# structura-server
-Structura CMS server
+# Structura CMS Server
+
+Structura is a CMS built on NextJS.
