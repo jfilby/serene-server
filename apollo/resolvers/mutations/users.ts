@@ -10,10 +10,12 @@ export async function createBlankUser(parent, args, context, info) {
 }
 
 export async function createUserByEmail(parent, args, context, info) {
+
   return usersService.createUserByEmail(prisma, args.email)
 }
 
 export async function getOrCreateUserByEmail(parent, args, context, info) {
+
   return usersService.getOrCreateUserByEmail(
            prisma,
            args.hasSession,
