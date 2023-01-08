@@ -1,7 +1,6 @@
 {
   "name": "@jasonfi/structura-server",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,7 +8,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/client": "^3.7.3",
+    "@apollo/server": "^4.3.0",
+    "@prisma/client": "^4.7.1",
     "@types/node": "^18.7.2",
+    "@types/react": "^18.0.26",
     "eslint": "8.30.0",
     "eslint-config-next": "^12.3.0",
     "next": "12.3.0",
@@ -17,5 +20,20 @@
   },
   "devDependencies": {
     "prisma": "^4.8.0"
-  }
+  },
+  "description": "Structura is a CMS built on NextJS.",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfilby/structura-server.git"
+  },
+  "keywords": [
+    "cms"
+  ],
+  "author": "Jason Filby",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jfilby/structura-server/issues"
+  },
+  "homepage": "https://github.com/jfilby/structura-server#readme"
 }
